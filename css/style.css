@@ -10,15 +10,18 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Lato';
-
     font-family: 'Roboto Condensed';
 }
+
 a, a:hover{
     text-decoration: none;
+    color: inherit;
+    color: black;
 }
-
+.btn{
+    border: 1px solid #969696;
+}
 /* ************************* */
-
 
 
 .carsol .carousel-inner img{
@@ -48,8 +51,7 @@ a, a:hover{
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: left;
-    text-shadow: 2px 2px 4px #000000;
-    
+    text-shadow: 2px 2px 4px #000000;  
 }
 .carsol .btn-light{
     padding: 8px 28px;
@@ -57,24 +59,237 @@ a, a:hover{
 }
 
 
-
-/**** title global css ****/
-.title{
-    width: 100%;
+/* ------------------------- */
+.service-list{
+    padding: 45px 0px;
 }
-.title h2{
-    font-size: 44px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 54px;
-    color:#1f4f87 ;
-    margin: 0px 0px 20px ;
-}
-
-/* title global css end */
-
 .introduction{
     margin-top: 30px;
     text-align: center;
     font-family: 'Lato';
+}
+
+/* -------------------- */
+
+.box1 .card-body{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: #8e8e8e;
+}
+.box1 .card-body:hover {
+    border: 1px solid black;
+}
+
+.box1 .card .card-body .i-one i{
+    font-size: 70px;
+    margin-top: -41px;
+    background: white;
+    padding: 0px 20px;
+}
+.box1 .card .card-body h3{
+    text-transform:uppercase ;
+    padding-top: 25px;
+    color: black;
+}
+
+.box1 .card .card-body h4{
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+/* ------------------------------------- */
+
+.about-us{
+    margin: 30px 0px 85px;
+}
+
+.about-us .card-body .btn{
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+.about-us .card-body h4{
+    text-transform: uppercase;
+    font-family: 'Lato';
+}
+/* ----------------------------------- */
+
+.introduction2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.introduction2 .navbar-collapse{
+    padding-bottom: 15px;
+}
+.introduction2 .nav-item{
+    padding: 0px 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+            
+}
+.introduction2 .nav-item:hover{
+    border: 1px solid black;
+}
+.introduction2 h1{
+    margin: 20px 0px 70px 0px;
+    text-transform: uppercase;
+     font-family: 'Lato';
+}
+
+.project img{
+     margin-bottom: 30px;
+}
+/* ----------------------------- */
+
+.introduction3 {
+    text-align: center;
+    margin: 30px 0px;
+}
+.introduction3 h1{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+.introduction4 .box-2{
+    display: flex;
+    
+}
+.introduction4 .box-2 i{
+    margin-top: -2px;
+    font-size: 52px;
+    padding: 0px 10px 20px 0px;
+}
+.introduction4 .box4 p{
+    padding: 0px 0px 30px 0px;
+    border-bottom: 1px solid;
+}
+.introduction4 .box4{
+    margin-bottom: 20px;
+    color: #8e8e8e;}
+
+.introduction4 .box4:hover{
+    color: black;}
+
+    /* ------------------------- */
+
+.introduction5{
+    text-align: center;
+    margin: 30px 0px;
+    background: url(../images/background.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduction5 h1{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+.introduction5 .card{
+    margin-bottom: 60px;
+}
+/* -------------------------------------- */
+
+.pricing{
+    padding: 30px 0px;
+}
+.pricing .card .card-body{
+    text-align: left;
+    height: 400px;
+}
+.pricing .card .card-body .i-one{
+    margin-top: -25px;
+    background: white;
+}
+.pricing .box1 .card .card-body h4 {
+    margin-top: 70px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+/* ------------------------------------------- */
+
+.othernav .btn{
+    border: 1px solid;
+}
+
+
+/* -------------------- */
+
+.about-us2{
+    border: 1px solid #969696;
+    padding: 10px;
+}
+/* --------------------- */
+.contact-us{
+    text-align: center;
+    margin: 25px 0px;
+    padding: 10px 0px;
+    
+}
+.contact-us .container{
+    border: 1px solid #969696;
+}
+.contact-us .container h1{
+    margin-top: -25px;
+}
+.contact-us .container h1 span{
+margin-top: -25px;
+background: #fff;
+}
+
+.contact-us .email .input {
+    width: 40%;
+    align-items: left;
+}
+.contact-us .input{
+    border: none;
+    border-bottom: 1px solid;
+    margin: 35px;
+    padding-left: 8px;
+    
+}
+.contact-us .mas .input {
+    width: 40%;
+    align-items: left;
+}
+.contact-us .btn{
+    margin-bottom: 40px;
+}
+/* -------------------------- */
+.info{
+    margin-top: 75px;
+    text-align: center;
+    background: url(../images/last-background.png);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info .container p{
+    color: #969696;
+}
+.info-icon ul li{
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    line-height: 40px;
+    border: 1px solid;
+    border-radius: 1%;
+    margin: 0 13px;
+    transition: .5s;
+    text-align: center;
+}
+.info-icon ul li:hover{
+    color: black;
+    background: #fff;
+}
+.info .navbar{
+    color: #969696;
 }
